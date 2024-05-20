@@ -1,3 +1,41 @@
+## [3.4.27](https://github.com/vuejs/core/compare/v3.4.26...v3.4.27) (2024-05-06)
+
+
+### Bug Fixes
+
+* **compat:** include legacy scoped slots ([#10868](https://github.com/vuejs/core/issues/10868)) ([8366126](https://github.com/vuejs/core/commit/83661264a4ced3cb2ff6800904a86dd9e82bbfe2)), closes [#8869](https://github.com/vuejs/core/issues/8869)
+* **compiler-core:** add support for arrow aysnc function with unbracketed ([#5789](https://github.com/vuejs/core/issues/5789)) ([ca7d421](https://github.com/vuejs/core/commit/ca7d421e8775f6813f8943d32ab485e0c542f98b)), closes [#5788](https://github.com/vuejs/core/issues/5788)
+* **compiler-dom:** restrict createStaticVNode usage with option elements ([#10846](https://github.com/vuejs/core/issues/10846)) ([0e3d617](https://github.com/vuejs/core/commit/0e3d6178b02d0386d779720ae2cc4eac1d1ec990)), closes [#6568](https://github.com/vuejs/core/issues/6568) [#7434](https://github.com/vuejs/core/issues/7434)
+* **compiler-sfc:** handle keyof operator ([#10874](https://github.com/vuejs/core/issues/10874)) ([10d34a5](https://github.com/vuejs/core/commit/10d34a5624775f20437ccad074a97270ef74c3fb)), closes [#10871](https://github.com/vuejs/core/issues/10871)
+* **hydration:** handle edge case of style mismatch without style attribute ([f2c1412](https://github.com/vuejs/core/commit/f2c1412e46a8fad3e13403bfa78335c4f704f21c)), closes [#10786](https://github.com/vuejs/core/issues/10786)
+
+
+
+## [3.4.26](https://github.com/vuejs/core/compare/v3.4.25...v3.4.26) (2024-04-29)
+
+
+### Bug Fixes
+
+* **compiler-core:** fix bail constant for globals ([fefce06](https://github.com/vuejs/core/commit/fefce06b41e3b75de3d748dc6399628ec5056e78))
+* **compiler-core:** remove unnecessary constant bail check ([09b4df8](https://github.com/vuejs/core/commit/09b4df809e59ef5f4bc91acfc56dc8f82a8e243a)), closes [#10807](https://github.com/vuejs/core/issues/10807)
+* **runtime-core:** attrs should be readonly in functional components ([#10767](https://github.com/vuejs/core/issues/10767)) ([e8fd644](https://github.com/vuejs/core/commit/e8fd6446d14a6899e5e8ab1ee394d90088e01844))
+* **runtime-core:** ensure slot compiler marker writable ([#10825](https://github.com/vuejs/core/issues/10825)) ([9c2de62](https://github.com/vuejs/core/commit/9c2de6244cd44bc5fbfd82b5850c710ce725044f)), closes [#10818](https://github.com/vuejs/core/issues/10818)
+* **runtime-core:** properly handle inherit transition during clone VNode ([#10809](https://github.com/vuejs/core/issues/10809)) ([638a79f](https://github.com/vuejs/core/commit/638a79f64a7e184f2a2c65e21d764703f4bda561)), closes [#3716](https://github.com/vuejs/core/issues/3716) [#10497](https://github.com/vuejs/core/issues/10497) [#4091](https://github.com/vuejs/core/issues/4091)
+* **Transition:** re-fix [#10620](https://github.com/vuejs/core/issues/10620) ([#10832](https://github.com/vuejs/core/issues/10832)) ([accf839](https://github.com/vuejs/core/commit/accf8396ae1c9dd49759ba0546483f1d2c70c9bc)), closes [#10632](https://github.com/vuejs/core/issues/10632) [#10827](https://github.com/vuejs/core/issues/10827)
+
+
+
+## [3.4.25](https://github.com/vuejs/core/compare/v3.4.24...v3.4.25) (2024-04-24)
+
+
+### Bug Fixes
+
+* **defineModel:** align prod mode runtime type generation with defineProps ([4253a57](https://github.com/vuejs/core/commit/4253a57f1703a7f1ac701d77e0a235689203461d)), closes [#10769](https://github.com/vuejs/core/issues/10769)
+* **runtime-core:** properly get keepAlive child ([#10772](https://github.com/vuejs/core/issues/10772)) ([3724693](https://github.com/vuejs/core/commit/3724693a25c3f2dd13d70a8a1af760b03a4fb783)), closes [#10771](https://github.com/vuejs/core/issues/10771)
+* **runtime-core:** use normal object as internal prototype for attrs and slots ([064e82f](https://github.com/vuejs/core/commit/064e82f5855f30fe0b77fe9b5e4dd22700fd634d)), closes [/github.com/vuejs/core/commit/6df53d85a207986128159d88565e6e7045db2add#r141304923](https://github.com//github.com/vuejs/core/commit/6df53d85a207986128159d88565e6e7045db2add/issues/r141304923)
+
+
+
 ## [3.4.24](https://github.com/vuejs/core/compare/v3.4.23...v3.4.24) (2024-04-22)
 
 
